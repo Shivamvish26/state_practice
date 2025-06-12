@@ -1,12 +1,15 @@
-import "./App.css";
+import React from "react";
+import UseStatehook from "./Components/States/UseStatehook";
+import UseEffecthook from "./Components/States/UseEffecthook";
+import UseRefhook from "./Components/States/UseRefhook";
 
 function App() {
+
   return (
     <>
-      {/* Started with react state practice */}
-      <div>
-        <h1>Hello World</h1>
-      </div>
+    {/* <UseStatehook/> */}
+    {/* <UseEffecthook/> */}
+    <UseRefhook/>
     </>
   );
 }
